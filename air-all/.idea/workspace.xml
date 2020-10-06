@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d4a7e17-2184-4960-a09f-770f7bcf19fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageBinaryzation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/webdriver/WebDriverUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/LySession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/JkVerify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/YlPolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/test/java/com/godwin/chromedriver/test/FindCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mu-air-autoticket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mu-air-autoticket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/controller/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/controller/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../mu-air-autoticket/target/" />
+    <ignored path="$PROJECT_DIR$/../air-core/target/" />
+    <ignored path="$PROJECT_DIR$/../air-core/air-core-entity/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-13926685">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="10" />
+          <entry key="config" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="47" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="47" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="config" value="7" />
+          <entry key="dummy" value="16" />
+          <entry key="java" value="5350" />
+          <entry key="xml" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5350" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="29" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+              <folding>
+                <element signature="docComment;class#MuAutoTicketService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/JkVerify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8610">
+              <caret line="359" column="36" selection-start-line="359" selection-start-column="27" selection-end-line="359" selection-end-column="36" />
+              <folding>
+                <element signature="docComment;class#MuSession#0" />
+                <element signature="method#MuSession#0;class#MuSession#0" />
+                <element signature="method#exist#0;class#MuSession#0" />
+                <element signature="method#searchFlight#0;class#MuSession#0" />
+                <element signature="method#snapshot#0;class#MuSession#0" />
+                <element signature="method#snapshot#1;class#MuSession#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2430">
+              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/AirSegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/PassengerTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/controller/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="46" column="13" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="70" />
+              <folding>
+                <marker date="1601525237028" expanded="true" signature="2339:3103" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://E:/Tools/air/.git/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="81" column="9" selection-start-line="70" selection-start-column="8" selection-end-line="81" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chromeDriverProperty</find>
+      <find>data_rel</find>
+      <find>==</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mu-air-autoticket" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../air-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/Passenger.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/SearchAirLeg.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/CodeshareInfo.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/AirSegment.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/pom.xml" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderRequest.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/AirAvailInfo.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/Poit.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Poit.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Point.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Rectangle.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageBinaryzation.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/test/java/com/godwin/chromedriver/test/FindCenter.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/JkVerify.java" />
+        <option value="$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/PassengerTicket.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderResponse.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/controller/Demo.java" />
+        <option value="$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java" />
+        <option value="E:/Tools/air/.git/config" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\maven\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="air-all" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="air-all" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="air-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="y" value="-9" />
+    <option name="width" value="321" />
+    <option name="height" value="215" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+              <item name="air-core-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+              <item name="air-core-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+              <item name="air-core-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+              <item name="air-core-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-core" type="462c0819:PsiDirectoryNode" />
+              <item name="air-core-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muautoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu-air-autoticket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601977810894" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="FindCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.godwin.chromedriver.test.FindCenter" />
+      <module name="mu-air-autoticket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.godwin.chromedriver.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mu-air-autoticket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.godwinzh.air.muautoticket.commons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.godwinzh.air.muautoticket.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.FindCenter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.FindCenter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d4a7e17-2184-4960-a09f-770f7bcf19fc" name="Default Changelist" comment="" />
+      <created>1600093497121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600093497121</updated>
+      <workItem from="1600093498600" duration="6494000" />
+      <workItem from="1600251574278" duration="4045000" />
+      <workItem from="1600306612547" duration="7016000" />
+      <workItem from="1600422054109" duration="54211000" />
+      <workItem from="1601472661429" duration="5102000" />
+      <workItem from="1601977600431" duration="205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77073000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21320346" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4997346" weight="0.32952183" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.74378884" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997346" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4997346" weight="0.7300469" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5002654" side_tool="true" weight="0.39958593" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.5833333" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>237</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>230</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>298</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>321</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>350</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>426</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>370</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="orderResponse.setPayAmount(new BigDecimal(orderPrice.findElement(By.xpath(&quot;span/em&quot;)).getText()))" language="JAVA" />
+        <watch expression="orderPrice.findElement(By.xpath(&quot;span/em&quot;)).getText().replaceAll(&quot;[\\D\\.]&quot;, &quot;&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>orderResponse.setPayAmount(new BigDecimal(orderPrice.findElement(By.xpath(&quot;span/em&quot;)).getText()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>orderPrice.findElement(By.xpath(&quot;span/em&quot;)).getText().replaceAll(&quot;[\\D\\.]&quot;, &quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>orderPrice.findElement(By.xpath(&quot;span/em&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>orderPrice.findElement(By.xpath(&quot;span/em&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ticket.getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>muSession.getTicketNumbers(orderResponse)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>muSession.webDriver.switchTo().window(&quot;CDwindow-3943523D553038F160F59BCD3EE53D12&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>muSession.webDriver.getWindowHandles()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.close();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.getWidth()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;7812304781602&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>7812304781602</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;71200925484991&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/mu-air-autoticket.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/Passenger.java" />
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/SearchAirLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/AirAvailInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/CodeshareInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/Passenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/springframework/spring-webmvc/5.2.3.RELEASE/spring-webmvc-5.2.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/time/DateUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/TakesScreenshot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/OutputType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/test/java/com/godwin/chromedriver/test/FindCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="48" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageBinaryzation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/com/godwinzh/commons-api-entity/0.1.1-SNAPSHOT/commons-api-entity-0.1.1-SNAPSHOT-sources.jar!/com/godwinzh/commons/api/entity/CommonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/MuAutoTicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#MuAutoTicketService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/OrderResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/service/JkVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/entity/MuSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8610">
+          <caret line="359" column="36" selection-start-line="359" selection-start-column="27" selection-end-line="359" selection-end-column="36" />
+          <folding>
+            <element signature="docComment;class#MuSession#0" />
+            <element signature="method#MuSession#0;class#MuSession#0" />
+            <element signature="method#exist#0;class#MuSession#0" />
+            <element signature="method#searchFlight#0;class#MuSession#0" />
+            <element signature="method#snapshot#0;class#MuSession#0" />
+            <element signature="method#snapshot#1;class#MuSession#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/AirSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../air-core/air-core-entity/src/main/java/com/godwinzh/air/core/entity/PassengerTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/commons/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="81" column="9" selection-start-line="70" selection-start-column="8" selection-end-line="81" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mu-air-autoticket/src/main/java/com/godwinzh/air/muautoticket/controller/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="46" column="13" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="70" />
+          <folding>
+            <marker date="1601525237028" expanded="true" signature="2339:3103" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Tools/air/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>air-core-entity</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/air-all.iml" filepath="$PROJECT_DIR$/air-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../air-core/air-core.iml" filepath="$PROJECT_DIR$/../air-core/air-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../air-core/air-core-entity/air-core-entity.iml" filepath="$PROJECT_DIR$/../air-core/air-core-entity/air-core-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mu-air-autoticket/mu-air-autoticket.iml" filepath="$PROJECT_DIR$/../mu-air-autoticket/mu-air-autoticket.iml" />
+    </modules>
+  </component>
+</project>

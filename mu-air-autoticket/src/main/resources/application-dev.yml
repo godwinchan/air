@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    include: devXxx
+server:
+  port: 8000
+test:
+  msg: hello
+chromedriver:
+  binKey: webdriver.chrome.driver
+  binPath: D:\Program\\chromedriver_win32\chromedriver
+  exeKey:
+  exePath: D:\Program\\chromedriver_win32\chromedriver.exe
+muair:
+  index: http://www.ceair.com

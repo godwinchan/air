@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="air-core-entity" />
+        <module name="mu-air-autoticket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="air-all" target="1.8" />
+      <module name="air-core" target="1.8" />
+      <module name="air-core-entity" target="1.8" />
+      <module name="mu-air-autoticket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

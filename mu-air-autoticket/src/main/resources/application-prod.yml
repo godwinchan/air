@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    include: prodXxx
+server:
+  port: 8000
